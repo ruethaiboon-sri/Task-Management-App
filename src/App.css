@@ -1,5 +1,6 @@
 .App {
   min-height: 100vh;
+  overflow: hidden;
 }
 .container{
   background: #fff;
@@ -23,7 +24,7 @@
 
 @media (max-width: 768px){
   .container{
-    max-width: 30rem;
+    max-width: 25rem;
   }
   .container h2{
     font-size: 20px;
